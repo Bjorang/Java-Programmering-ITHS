@@ -8,7 +8,7 @@ public class whileloop {
         }
     
         
-        for (int j=1; j<10;j++) {System.out.println(j + " slut");}
+        for (int j=1; j<10;j++) {System.out.println(j + " slut ");}
 
     }
     
