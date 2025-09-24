@@ -1,10 +1,15 @@
 public class KodTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
+        System.out.println("main in working fine");
+
+        static void circel (double circelcm){
+            double pi = 3.14;
+        }
+         class rectangle {}
         
+            
+        }
     }
-    double milesToKilometer (){
-        double miles =100;
-        double kilometers = miles * 1.609344;
-        return kilometers;
-    }
-}
+    
+    
+
