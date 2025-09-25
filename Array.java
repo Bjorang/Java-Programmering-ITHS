@@ -9,17 +9,17 @@ public class Array {
         fruits[2] ="orange";
         fruits[3] ="grape";
 
-       /*  System.out.println(fruits.length);*/
+        System.out.println(fruits.length);
 
         String[] moreFruits;
              
         moreFruits=Arrays.copyOf(fruits,6); 
             moreFruits [4] ="citron";
             moreFruits [5]= "Gurka";
-        /*  System.out.println(moreFruits.length);*/
+         System.out.println( moreFruits.length);
        int element = 0;
     while (element < moreFruits.length ){
-        /*System.out.println(moreFruits[element]);*/ 
+        System.out.println("More fruits is " +moreFruits[element]); 
         element++;
 
     }
@@ -27,7 +27,7 @@ public class Array {
         lessFruits=Arrays.copyOf(fruits,2);
         
         for (String lF : lessFruits)
-    {System.out.println(lF); }
+    {System.out.println("Lessfruit is " + lF); }
    
 
         
