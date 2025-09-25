@@ -16,7 +16,12 @@ public class ArrayOperations {
         return intArray;
     }    
         
-       
+       public int getRandomNr(){
+        Random rand = new Random();
+        int randomIndex = rand.nextInt(intArray.length);
+
+        return intArray[randomIndex]; 
+       }
 
     
 

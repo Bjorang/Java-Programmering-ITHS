@@ -7,6 +7,7 @@ public class ArrysOfIntMain {
         
        ArrayOperations arrayHandler = new ArrayOperations(); 
        System.out.println("Den slumpmässiga Arrayen" + Arrays.toString(arrayHandler.getIntArray()));
-        
+       System.out.println("Slumpa ett tal " +arrayHandler.getRandomNr()); 
+
     }
 }
