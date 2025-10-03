@@ -39,7 +39,7 @@ private Random rand = new Random();
   weather [1] = "molnigt";
   weather [2] = "regnar";
   weather [3] = "snöar";
-  weather [4] = "blandat mellan sol och molnigt";
+  weather [4] = "blandat mellan sol och molnigt.";
   }
  public String[] valdCity(){
     String[] city = new String[4];
@@ -80,7 +80,7 @@ private Random rand = new Random();
     weather [1] = "molnigt";
     weather [2] = "regningt";
     weather [3] = "snöigt";
-    weather [4] = "blandat mellan sol och molnigt";
+    weather [4] = "blandat mellan sol och molnigt.";
     Random we =new Random();
     int wh = we.nextInt(weather.length);
     String weat = weather [wh];

@@ -38,7 +38,7 @@ wMetod.valdCity()[0]
         String väd = OK.väder();
 
     if (valdStader != null && dag !=null  ) {
-            System.out.println("Vädret i: " + valdStader +" på " + dag + " är " +väd + " och " + gd + " grader");
+            System.out.println("Vädret i: " + valdStader +" på " + dag + " är " +väd + " och " + gd + " grader.");
 
         }
         
