@@ -8,8 +8,8 @@ public class LearningMethods {
         new LearningMethods().indoorOrOutdoor();
     }
 
-    public static boolean indoorPerson = false;
-    public static boolean outdoorPerson = false;
+    private static boolean indoorPerson = false;
+    private static boolean outdoorPerson = false;
     public static Scanner sc = new Scanner(System.in);
 
     public void welcomeMessage() {
@@ -27,7 +27,7 @@ public class LearningMethods {
         System.out.println("That means you where born in " + (2025 - age) + "!");
     }
 
-    public void indoorOrOutdoor() {
+    private void indoorOrOutdoor() {
         System.out.println("Are you an indoor or outdoor person?");
         sc.nextLine();
         String answer = sc.nextLine();
