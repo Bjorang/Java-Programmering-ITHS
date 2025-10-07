@@ -21,7 +21,7 @@ public class Book {
     public Book(){
       this.title = "okänd titel";
       this.author ="okänd författare";
-      this.year = 0; 
+      this.year = 0;
     
     }
 }
