@@ -1,6 +1,12 @@
 package E6;
 
 public abstract class Fordon {
-    public static final int vikt,pris;
+    protected int vikt;
+    protected double pris;
+
+    public Fordon (int vikt, double pris){
+        this.vikt = vikt;
+        this.pris = pris;
+    }
 
 }

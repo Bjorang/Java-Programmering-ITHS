@@ -1,12 +1,25 @@
 package E6;
 
-public class LandVehicle {
-    public static int kmCount;
-    public static int speed;
+public class LandVehicle extends Fordon {
+    public  int kmCount = 0;
+    
 
-        public static int drive(){
-       int kms ;
-kms = (kmCount*speed) ;
-return kms;
+    public LandVehicle (int vikt, double pris){
+        super(vikt, pris);
     }
+    //Metod
+        public void drive(int kms){
+       if (kms>0 ){
+        this.kmCount += kms;
+        System.out.println("Kört " + kms + " km. Total km" + this.kmCount);
+
+       } else {
+        System.out.println("Kan inte köra negativa km");
+       }
+    }
+public int getKmCount(){
+return kmCount;
+}
+
+    
 }
