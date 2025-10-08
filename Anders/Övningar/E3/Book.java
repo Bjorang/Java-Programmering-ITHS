@@ -12,7 +12,7 @@ public class Book {
 
      System.out.println(book1.title);   
      System.out.println(book1.author);
-     System.out.println(book1.year); x
+     System.out.println(book1.year);
 
     }   
 
