@@ -1,4 +1,4 @@
-package Anders.Övningar;
+package Anders.Övningar.E3;
 
 class Student {
 
