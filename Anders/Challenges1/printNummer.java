@@ -1,3 +1,4 @@
+package Anders.Challenges1;
 import java.util.Scanner;
 public class printNummer {
    public static void main(String[] args) {
