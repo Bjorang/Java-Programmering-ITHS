@@ -41,7 +41,7 @@ public class Password {
                 // 3. Kontrollera längden och kasta exception INUTI try-blocket
                 if (currentInput.length() != korrektLängd.length()) {
                     // Kasta undantaget
-                    throw new Exception("SKRIV ETT LÖSENORD SOM ÄR EXAKT " + korrektLängd.length() + " TECKEN!");
+                    throw new Exception("DTT LÖSENORD ÄR BARA "+currentInput.length()+" TECKEN. SKRIV ETT LÖSENORD SOM ÄR EXAKT " + korrektLängd.length() + " TECKEN!");
                 }
 
                 // Om vi når hit är längden korrekt.
