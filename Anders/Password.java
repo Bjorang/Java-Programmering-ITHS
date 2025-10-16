@@ -44,7 +44,7 @@ Scanner sc = new Scanner(System.in);
                 System.out.println("Försök igen:");
             }
  }
-
+sc.close();
         // Stäng scannern och returnera det giltiga lösenordet sc.close(); 
         return setPassword; 
  }

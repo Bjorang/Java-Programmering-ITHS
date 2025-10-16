@@ -11,7 +11,7 @@ public class Exception {
          
          
          
-         new Exception();
+        
             
          }
     
@@ -22,10 +22,12 @@ public class Exception {
             sc.close();
             
             while (writePassword != "Test") {
-try {String sc
-    
+try {System.out.println("Fel lösenord ");
+ writePassword = sc.nextLine();    
 
 }
+
+
             }
             return writePassword;
 
