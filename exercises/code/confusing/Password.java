@@ -6,7 +6,7 @@ import java.lang.Exception;
 
 public class Password {
     public static String pwLength = "nyttVärde";
-    private static String korrektLängd ="mamma";  
+    private static String korrektLängd ="5char";  
 
     public static String pwlength() {
 
