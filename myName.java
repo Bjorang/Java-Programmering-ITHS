@@ -12,7 +12,7 @@ public class myName {
     System.out.println("Efternamn "+(lastName));
     System.out.println("Ålder "+ (age)+ " År");
 
-
+sc.close();
 
     }
 }
